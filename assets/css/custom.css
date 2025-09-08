@@ -1,5 +1,5 @@
 .sidebar .author__avatar {
-  width: 200px !important;     /* 원하는 크기 */
+  width: 250px !important;     /* 원하는 크기 */
   height: 200px !important;
   margin: 0 auto 1rem auto !important;  /* 좌우 auto → 중앙 */
   padding: 0 !important;
