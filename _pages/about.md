@@ -31,3 +31,19 @@ Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author
 - **Relational Self-supervised Distillation with Compact Descriptors for Image Copy Detection** [[paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Kim_Relational_Self-Supervised_Distillation_with_Compact_Descriptors_for_Image_Copy_Detection_WACV_2025_paper.pdf)  
 Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
 **<span style="color: #2196F3;">WACV'25</span>
+
+## Education
+
+- **M.S. in Department of Artificial Intelligence**, Sogang University, Mar.2023 - Aug.2025  
+  - Advisor: Jongho Nang
+  - Thesis: Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning
+- **B.S. in Department of Computer Science and Engineering**, Sogang University, Mar.2017 - Feb.2023
+## Experience
+
+- **Visiting Studemt at Carnegie Mellon Univeristy**, Aug.2024 - Feb.2025
+  - Sponsored by Institute of Information & Communications Technology Planning & Evaluation (IITP)
+  - Achieved 2nd place (2/34) in the Best Student Award
+## Awards & Scholarship
+  - Smilegate AI Major (DHE) Scholarship, Smilegate, Mar.2023 - Aug.2025
+  - 5th place on Video Similarity Challenge, CVPRW2023, VCDW by META Jan.2023 - Mar.2023
+  - 4th place on Food Classification Challenge, KT GenieLabs Aug.2022 - Sep.2022
