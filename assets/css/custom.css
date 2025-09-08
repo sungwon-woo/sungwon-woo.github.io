@@ -13,3 +13,9 @@
   object-fit: cover;
   border-radius: 0 !important;  /* 원형이면 50% */
 }
+
+.page__sidebar .author__bio,
+.page__sidebar .author__content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
