@@ -1,12 +1,12 @@
 .sidebar .author__avatar {
-  width: 100% !important;   /* 사이드바 폭 전체 */
-  text-align: center;       /* 안의 이미지 가운데 정렬 */
+  width: 200px !important;
+  height: 200px !important;
+  margin: 0 auto 1rem auto;   /* 좌우 auto → 가운데 정렬 */
 }
 
 .sidebar .author__avatar img {
-  width: 350px !important;  /* 원하는 크기 */
-  height: 350px !important;
-  border-radius: 0 !important;   /* 원형은 50% */
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover;
-  display: inline-block;    /* 가운데 정렬용 */
+  border-radius: 0 !important; /* 원형 원하면 50% */
 }
