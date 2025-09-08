@@ -20,6 +20,14 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
 ## selected publications
-- **Does Prior Data Matter? Exploring Joint Training in the Context of Few-Shot Class-Incremental Learning** [[paper]] (https://arxiv.org/pdf/2503.10003)  
+- **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](https://dcollection.sogang.ac.kr/dcollection/public_resource/pdf/000000082070_20250908213730.pdf)  
+**Sungwon Woo**  
+**M.S. Thesis**, Sogang University
+
+- **Does Prior Data Matter? Exploring Joint Training in the Context of Few-Shot Class-Incremental Learning** [[paper]](https://arxiv.org/pdf/2503.10003)  
 Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author)**  
 **<span style="color: #2196F3;">CLVision Workshop at ICCV'25</span>
+
+- **Relational Self-supervised Distillation with Compact Descriptors for Image Copy Detection** [[paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Kim_Relational_Self-Supervised_Distillation_with_Compact_Descriptors_for_Image_Copy_Detection_WACV_2025_paper.pdf)  
+Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
+**<span style="color: #2196F3;">WACV'25</span>
