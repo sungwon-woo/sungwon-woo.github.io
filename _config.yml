@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Sungwon Woo"
 title_separator          : "-"
 name                     : &name "Sungwon Woo"
-description              : &description "AI Researcher in Computer Vision"
+description              : &description "Personal website of SungwonWoo"
 url                      : https://sungwon-woo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sungwon-woo/sungwon-woo.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Sungwon Woo"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "AI Researcher in Computer Vision<br>M.S. in Artificial Intelligence (Sogang University)"
   location         : "Seoul, Korea"
   employer         : "Sogang University"
   uri              : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/sungwon-woo-3aab4827b/"
+  linkedin         : "sungwon-woo-3aab4827b/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
