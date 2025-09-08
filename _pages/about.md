@@ -1,6 +1,5 @@
 ---
-layout: single
-title: about
+title: ''
 permalink: /
 author_profile: true
 selected_papers: true
