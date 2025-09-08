@@ -4,7 +4,7 @@
 }
 
 .sidebar .author__avatar img {
-  width: 250px !important;  /* 원하는 크기 */
+  width: 350px !important;  /* 원하는 크기 */
   height: 250px !important;
   border-radius: 0 !important;   /* 원형은 50% */
   object-fit: cover;
