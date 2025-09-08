@@ -4,7 +4,6 @@ permalink: /
 title: ""
 author_profile: true
 selected_papers: true
-news: false
 
 ---
 
