@@ -3,8 +3,8 @@
   }
 
 .sidebar .author__avatar img {
-  width: 160px;        /* 원하는 크기 (기본은 약 100px) */
-  height: 160px;       /* 정사각형으로 강제 */
+  width: 320px;        /* 원하는 크기 (기본은 약 100px) */
+  height: 320px;       /* 정사각형으로 강제 */
   border-radius: 50%;  /* 완전 원형 */
   object-fit: cover;   /* 비율 유지하면서 꽉 채우기 */
 }
