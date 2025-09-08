@@ -1,15 +1,12 @@
-/* 사이드바 아바타: 항상 정사각형으로 고정 */
 .sidebar .author__avatar {
-  width: 500px !important;         /* 원하는 크기 */
-  height: 500px !important;
-  margin: 0 auto 1rem auto;        /* 가운데 정렬 + 아래 여백 */
+  width: 100% !important;   /* 사이드바 폭 전체 */
+  text-align: center;       /* 안의 이미지 가운데 정렬 */
 }
 
 .sidebar .author__avatar img {
-  display: block;
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 0 !important;     /* ← 정사각형 (원형 원하면 50%) */
-  object-fit: cover;               /* 가운데를 기준으로 꽉 채우기 */
-  aspect-ratio: 1 / 1;            /* 일부 브라우저에서 추가 안전장치 */
+  width: 250px !important;  /* 원하는 크기 */
+  height: 250px !important;
+  border-radius: 0 !important;   /* 원형은 50% */
+  object-fit: cover;
+  display: inline-block;    /* 가운데 정렬용 */
 }
