@@ -1,7 +1,7 @@
 ---
 layout: about
+title: about
 permalink: /
-title: ""
 author_profile: true
 selected_papers: true
 redirect_from: 
