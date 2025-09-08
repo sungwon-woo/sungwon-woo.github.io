@@ -12,4 +12,5 @@ buttons:
       url: https://openaccess.thecvf.com/content/WACV2025/papers/Kim_Relational_Self-Supervised_Distillation_with_Compact_Descriptors_for_Image_Copy_Detection_WACV_2025_paper.pdf
     - type: video
       url: https://www.youtube.com/watch?v=2ez1uTzhPPs&t=36s
+selected: true
 ---
