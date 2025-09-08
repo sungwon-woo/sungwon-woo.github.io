@@ -1,3 +1,18 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+{% comment %} _publications/*.md 기반 selected 목록 {% endcomment %}
+{% assign pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+
+{% if pubs.size == 0 %}
+<p>No selected publications yet.</p>
+{% endif %}
+
+{% for post in pubs limit:5 %}
+<div class="pub-item" style="margin-bottom:1rem;">
+  <strong>{{ post.title }}</strong>,
+  {% if post.venue %}{{ post.venue }}{% endif %}
+  {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}<br/>
+  {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+  {% if post.citation %}<br/><small>{{ post.citation }}</small>{% endif %}
 </div>
+{% endfor %}
+
+<p><a href="{{ '/publications/' | relative_url }}">전체 보기 →</a></p>
