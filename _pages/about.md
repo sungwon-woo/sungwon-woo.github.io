@@ -38,11 +38,12 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
   - Advisor: Jongho Nang
   - Thesis: Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning
 - **B.S. in Department of Computer Science and Engineering**, Sogang University, Mar.2017 - Feb.2023
-## Experience
 
+## Experience
 - **Visiting Studemt at Carnegie Mellon Univeristy**, Aug.2024 - Feb.2025
   - Sponsored by Institute of Information & Communications Technology Planning & Evaluation (IITP)
   - Achieved 2nd place (2/34) in the Best Student Award
+
 ## Awards & Scholarship
   - Smilegate AI Major (DHE) Scholarship, Smilegate, Mar.2023 - Aug.2025
   - 5th place on Video Similarity Challenge, CVPRW2023, VCDW by META Jan.2023 - Mar.2023
