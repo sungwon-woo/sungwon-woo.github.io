@@ -12,5 +12,4 @@ buttons:
       url: https://arxiv.org/pdf/2503.10003
     - type: video
       url:
-selected: {true}
 ---
