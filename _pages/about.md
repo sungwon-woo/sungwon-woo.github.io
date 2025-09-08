@@ -4,6 +4,9 @@ permalink: /
 title: ""
 author_profile: true
 selected_papers: true
+redirect_from: 
+  - /about/
+  - /about.html
 
 ---
 
