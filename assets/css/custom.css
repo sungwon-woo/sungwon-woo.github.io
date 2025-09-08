@@ -1,7 +1,7 @@
 /* 사이드바 아바타: 항상 정사각형으로 고정 */
 .sidebar .author__avatar {
-  width: 200px !important;         /* 원하는 크기 */
-  height: 200px !important;
+  width: 500px !important;         /* 원하는 크기 */
+  height: 500px !important;
   margin: 0 auto 1rem auto;        /* 가운데 정렬 + 아래 여백 */
 }
 
