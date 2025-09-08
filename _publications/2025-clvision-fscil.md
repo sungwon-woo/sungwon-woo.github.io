@@ -3,6 +3,8 @@ title: "Does Prior Data Matter? Exploring Joint Training in the Context of Few-S
 collection: publications
 category: conferences
 permalink: /publication/clvision-fscil
+header:
+    teaser: /images/clvision-fscil.png
 excerpt: ''
 date: 2025-07-02
 authors: Shiwon Kim<sup>+</sup>, Dongjun Hwang<sup>+</sup>, <u>Sungwon Woo</u><sup>+</sup>, Rita Singh<sup>*</sup>

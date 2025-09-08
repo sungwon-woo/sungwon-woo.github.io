@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/rdcd
 header:
-    teaser: /images/rdcd/png
+    teaser: /images/rdcd.png
 excerpt: ''
 date: 2025-03-02
 authors: Juntae Kim<sup>+</sup>, <u>Sungwon Woo</u><sup>+</sup>, Jongho Nang<sup>*</sup>
