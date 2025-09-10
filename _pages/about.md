@@ -20,7 +20,7 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
 ## selected publications
-- **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](https://dcollection.sogang.ac.kr/dcollection/public_resource/pdf/000000082070_20250908222719.pdf)  
+- **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](https://drive.google.com/drive/folders/1uNiPRDa78hr_iWGg6-hc55nfbu71Kita)  
 **Sungwon Woo**  
 **M.S. Thesis**, Sogang University
 
