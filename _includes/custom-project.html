@@ -18,17 +18,23 @@
         {% if post.venue %}
         <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
         {% endif %}
-    
-        {% if post.tags %}
-          <p style="margin:.2rem 0;">
-            {% for tag in post.tags %}
-              <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
-                 style="display:inline-block; padding:3px 8px; border:1px solid rgba(0,0,0,.15); border-radius:999px; font-size:.8em; text-decoration:none; margin-right:6px;">
-                #{{ tag }}
-              </a>
-            {% endfor %}
-          </p>
-        {% endif %}
+  
+      {% if post.description %}
+        <p style="margin:.25rem 0 .2rem; font-size:.95em;">{{ post.description }}</p>
+      <!-- {% elsif post.excerpt %}
+        <p style="margin:.25rem 0 .2rem; font-size:.95em;">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      {% endif %} -->
+  
+      {% if post.tags %}
+        <p style="margin:.2rem 0;">
+          {% for tag in post.tags %}
+            <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
+               style="display:inline-block; padding:3px 8px; border:1px solid rgba(0,0,0,.15); border-radius:999px; font-size:.8em; text-decoration:none; margin-right:6px;">
+              #{{ tag }}
+            </a>
+          {% endfor %}
+        </p>
+      {% endif %}
   
       {% if post.buttons %}
         <p style="font-size:.9em; margin:.2rem 0 0;">
