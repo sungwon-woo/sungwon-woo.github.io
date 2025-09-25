@@ -1,6 +1,7 @@
 ---
 title: ''
 permalink: /
+layout: home
 author_profile: true
 selected_papers: true
 redirect_from: 
@@ -8,6 +9,16 @@ redirect_from:
   - /about.html
 
 ---
+
+preprints:
+  - title: "Prior-Constrained Explorative Guidance for Diffusion Motion Planning"
+    authors: "—"
+    venue: "Submitted to ICRA 2026 (Under double-blind review)"
+    img: /images/PCEG.gif
+  - title: "Multi-Objective DRL for Eco-Friendly AMoD Fleet Rebalancing"
+    authors: "—"
+    venue: "Submitted to AAMAS 2026 (Under double-blind review)"
+    img: /images/drl_rideshare.gif
 
 ## about me
 I am an alum of Sogang University, where I earned a Master's degree in Artificial Intelligence with a specialization in Computer Vision in 2025, and a Bachelor's degree in Computer Science and Engineering at 2023.
@@ -24,28 +35,6 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 **Sungwon Woo**  
 **M.S. Thesis**, Sogang University
 
-
-## Publications
-<ul class="teaser-tiles">
-{% assign pubs = site.publications | where_exp: "p", "p.status != 'preprint'" %}
-{% for item in pubs limit: 6 %}
-  <li class="teaser-tile">
-    <a href="{{ item.url | relative_url }}">
-      {% if item.thumbnail %}<img class="teaser" src="{{ item.thumbnail | relative_url }}" alt="{{ item.title }}">{% endif %}
-      <div class="teaser-meta">
-        <div class="teaser-title">{{ item.title }}</div>
-        {% if item.venue %}<div class="teaser-venue">{{ item.venue }}</div>{% endif %}
-        <div class="teaser-links">
-          {% if item.paperurl %}<a href="{{ item.paperurl }}" target="_blank">Paper</a>{% endif %}
-          {% if item.projecturl %}{% if item.paperurl %} | {% endif %}<a href="{{ item.projecturl }}" target="_blank">Project</a>{% endif %}
-          {% if item.code %} | <a href="{{ item.code }}" target="_blank">GitHub</a>{% endif %}
-        </div>
-      </div>
-    </a>
-  </li>
-{% endfor %}
-</ul>
-
 - **Does Prior Data Matter? Exploring Joint Training in the Context of Few-Shot Class-Incremental Learning** [[paper]](https://arxiv.org/pdf/2503.10003)  
 Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author)**  
 **<span style="color: #2196F3;">CLVision Workshop at ICCV'25</span>
@@ -53,6 +42,20 @@ Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author
 - **Relational Self-supervised Distillation with Compact Descriptors for Image Copy Detection** [[paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Kim_Relational_Self-Supervised_Distillation_with_Compact_Descriptors_for_Image_Copy_Detection_WACV_2025_paper.pdf)  
 Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
 **<span style="color: #2196F3;">WACV'25</span>
+
+## Preprints
+<ul class="teaser-tiles">
+{% for x in page.preprints %}
+  <li class="teaser-tile">
+    {% if x.img %}<img class="teaser" src="{{ x.img | relative_url }}" alt="{{ x.title }}">{% endif %}
+    <div class="teaser-meta">
+      <div class="teaser-title">{{ x.title }}</div>
+      {% if x.authors %}<div class="teaser-authors">{{ x.authors }}</div>{% endif %}
+      {% if x.venue %}<div class="teaser-venue">{{ x.venue }}</div>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
 
 ## Education
 
