@@ -2,7 +2,7 @@
 title: "AI on the Edge with Robotics"
 collection: projects
 category: arxiv
-permalink: /projects/idl_war
+permalink: /projects/AIER
 header:
     teaser: /images/invisible_watermark.png
 date: 2025-02-01
