@@ -57,7 +57,43 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 </ul>
 
 ## Projects
+## Projects
+<ul class="pub-list">
+{%- assign projs = site.projects | where: "selected", true | sort: "date" | reverse -%}
+{%- for p in projs -%}
+  <li class="pub-item">
+    <div class="pub-thumb">
+      {% if p.header.teaser %}
+        <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}">
+      {% endif %}
+    </div>
+    <div class="pub-meta">
+      <div class="pub-title">
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </div>
 
+      {% if p.period %}<div class="pub-venue">{{ p.period }}</div>{% endif %}
+      {% if p.summary %}<div class="pub-authors">{{ p.summary }}</div>{% endif %}
+
+      {% if p.tags %}
+      <div class="tag-list">
+        {% for tag in p.tags %}
+          <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if p.links %}
+      <div class="pub-links">
+        {% for L in p.links %}
+          <a href="{{ L.url }}" target="_blank" rel="noopener">{{ L.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
+{%- endfor -%}
+</ul>
 
 ## Education
 

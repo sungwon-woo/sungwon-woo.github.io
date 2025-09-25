@@ -4,13 +4,13 @@ collection: publications
 category: arxiv
 permalink: /project/idl_war
 header:
-    teaser: /images/msthesis.jpg
+    teaser: /images/invisible_watermark.png
 date: 2024-12-01
-authors: <b>Sungwon Woo</b>
+authors: Dongjun Hwang*, <b>Sungwon Woo*</b>, Tom Gao*, Raymond Luo*, Sunghwan Baek <b>(co-first author)</b>"
 venue: M.S. Thesis, Sogang University, 2025.
 buttons:
     - type: paper
-      url: /files/Sungwon_s_Masters.pdf
+      url: https://arxiv.org/pdf/2412.12511
     - type: video
-      url:
+      url: https://www.youtube.com/watch?v=0vwFG1HSrUE
 ---
