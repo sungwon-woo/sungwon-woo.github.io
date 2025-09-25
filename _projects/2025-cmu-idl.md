@@ -7,7 +7,8 @@ header:
     teaser: /images/invisible_watermark.png
 date: 2024-12-01
 authors: Dongjun Hwang*, <b>Sungwon Woo*</b>, Tom Gao*, Raymond Luo*, Sunghwan Baek <b>(co-first author)</b>"
-venue: M.S. Thesis, Sogang University, 2025.
+venue:
+description: Improving water robustness via cascading image-space and latent-space techniques and improving attacks via custom remover network
 buttons:
     - type: paper
       url: https://arxiv.org/pdf/2412.12511
