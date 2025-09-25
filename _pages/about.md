@@ -19,7 +19,7 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
 ## selected publications
-<!-- - **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](/files/Sungwon_s_Masters.pdf)  
+- **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](/files/Sungwon_s_Masters.pdf)  
 **Sungwon Woo**  
 **M.S. Thesis**, Sogang University
 
@@ -29,7 +29,7 @@ Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author
 
 - **Relational Self-supervised Distillation with Compact Descriptors for Image Copy Detection** [[paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Kim_Relational_Self-Supervised_Distillation_with_Compact_Descriptors_for_Image_Copy_Detection_WACV_2025_paper.pdf)  
 Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
-**<span style="color: #2196F3;">WACV'25</span> -->
+**<span style="color: #2196F3;">WACV'25</span>
 
 <ul class="pub-list">
 {%- assign pubs = site.publications | sort: "date" | reverse -%}
