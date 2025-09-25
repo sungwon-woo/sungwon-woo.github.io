@@ -7,7 +7,7 @@ header:
     teaser: /images/rdcd.png
 excerpt: ''
 date: 2025-03-02
-authors: Juntae Kim<sup>+</sup>, <u>Sungwon Woo</u><sup>+</sup>, Jongho Nang<sup>*</sup>
+authors: Juntae Kim*, <b>Sungwon Woo*</b>, Jongho Nang<sup>+</sup> <b>(co-first author)</b>"
 venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision 2025'
 buttons:
     - type: paper

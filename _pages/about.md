@@ -6,13 +6,6 @@ selected_papers: true
 redirect_from: 
   - /about/
   - /about.html
-
-projects:
-  - title: "Invisible Watermarks: Attacks and Robustness"
-    desc: "Investigate improving watermark robustness via cascading techniques and improving attacks via custom remover network."
-    period: "Aug 2024 – Dec 2024"
-    img: /images/invisible_watermark.png
-    tags: ["invisible watermarks", "watermark attack", "generative ai"]
 ---
 
 ## about me
