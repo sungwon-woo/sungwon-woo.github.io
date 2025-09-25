@@ -7,7 +7,7 @@ header:
     teaser: /images/clvision-fscil.png
 excerpt: ''
 date: 2025-07-02
-authors: Shiwon Kim<sup>+</sup>, Dongjun Hwang<sup>+</sup>, <u>Sungwon Woo</u><sup>+</sup>, Rita Singh<sup>*</sup>
+authors: "Shiwon Kim*, Dongjun Hwang*, <b>Sungwon Woo*</b>, Rita Singh<sup>+</sup> <b>(co-first author)</b>"
 venue: 'Workshop on Continual Learning in Computer Vision (CLVision) 2025'
 buttons:
     - type: paper

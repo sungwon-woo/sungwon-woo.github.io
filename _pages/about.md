@@ -21,8 +21,8 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 
 ## news
 - **Aug 2025**: Graduated from Sogang University with a Master's degree in Artificial Intelligence.
-- **Jul 2025**: Our paper is accepted as a poster at ICCV 2025 workshop on Continual Learning in Computer Vision.
-- **Nov 2024**: Our paper is accepted as a poster in WACV 2025.
+- **Jul 2025**: One paper is accepted as a poster at ICCV 2025 workshop on Continual Learning in Computer Vision.
+- **Nov 2024**: One paper is accepted as a poster in WACV 2025.
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
 ## selected publications
@@ -49,18 +49,13 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       {% endif %}
     </div>
     <div class="pub-meta">
-      <div class="pub-title">
-        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-      </div>
+      <div class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
       {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
       {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
-
       {% if p.buttons %}
       <div class="pub-links">
         {%- for b in p.buttons -%}
-          <a href="{{ b.url }}" target="_blank" rel="noopener">
-            {{ b.type | capitalize }}
-          </a>{% if forloop.last == false %} &nbsp;{% endif %}
+          <a href="{{ b.url }}" target="_blank">{{ b.type | capitalize }}</a>
         {%- endfor -%}
       </div>
       {% endif %}
@@ -68,7 +63,6 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
   </li>
 {%- endfor -%}
 </ul>
-
 
 ## Education
 
