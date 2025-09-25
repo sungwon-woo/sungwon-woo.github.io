@@ -6,6 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+Curriculum vitae can be downloaded [HERE](https://drive.google.com/file/d/1vA2BNZxMgJ7aVPw_HE4tprMWLa5eWo5u/view?usp=drive_link)  
+
 
 {% include base_path %}
 
