@@ -1,8 +1,8 @@
 ---
 title: "Invisible Watermarks: Attacks and Robustness"
-collection: publications
+collection: projects
 category: arxiv
-permalink: /project/idl_war
+permalink: /projects/idl_war
 header:
     teaser: /images/invisible_watermark.png
 date: 2024-12-01
