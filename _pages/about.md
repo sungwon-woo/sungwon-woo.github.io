@@ -7,17 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 
-preprints:
-  - title: "Prior-Constrained Explorative Guidance for Diffusion Motion Planning"
-    authors: "—"
-    venue: "Submitted to ICRA 2026 (Under double-blind review)"
-    img: /images/PCEG.gif
-  - title: "Multi-Objective DRL for Eco-Friendly AMoD Fleet Rebalancing"
-    authors: "—"
-    venue: "Submitted to AAMAS 2026 (Under double-blind review)"
-    img: /images/drl_rideshare.gif
-
-
+projects:
+  - title: "Real-Time Traffic Routing with Carbon Emission Optimization"
+    desc: "Eco-friendly AMoD rebalancing via deep multi-agent RL."
+    period: "Feb 2024 – Dec 2024"
+    img: /images/rideshare.png
+  - title: "Autonomous Vehicle with RoboRacer"
+    desc: "F1TENTH 기반 자율주행 레이싱 플랫폼, 교내 1위."
+    period: "Feb 2023 – Jul 2023"
+    img: /images/f1tenth.gif
 ---
 
 ## about me
@@ -43,19 +41,20 @@ Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author
 Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
 **<span style="color: #2196F3;">WACV'25</span>
 
-## Preprints
+## Projects
 <ul class="teaser-tiles">
-{% for x in page.preprints %}
+{% for x in page.projects %}
   <li class="teaser-tile">
     {% if x.img %}<img class="teaser" src="{{ x.img | relative_url }}" alt="{{ x.title }}">{% endif %}
     <div class="teaser-meta">
       <div class="teaser-title">{{ x.title }}</div>
-      {% if x.authors %}<div class="teaser-authors">{{ x.authors }}</div>{% endif %}
-      {% if x.venue %}<div class="teaser-venue">{{ x.venue }}</div>{% endif %}
+      {% if x.period %}<div class="teaser-venue">{{ x.period }}</div>{% endif %}
+      {% if x.desc %}<div class="teaser-summary">{{ x.desc }}</div>{% endif %}
     </div>
   </li>
 {% endfor %}
 </ul>
+
 
 ## Education
 
