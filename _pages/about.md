@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 
 projects:
-  - title: "Real-Time Traffic Routing with Carbon Emission Optimization"
+  - title: "Invisible Watermarks: Attacks and Robustness"
     desc: "Eco-friendly AMoD rebalancing via deep multi-agent RL."
-    period: "Feb 2024 – Dec 2024"
-    img: /images/rideshare.png
+    period: "Aug 2024 – Dec 2024"
+    img: /images/invisible_watermark.pdf
   - title: "Autonomous Vehicle with RoboRacer"
     desc: "F1TENTH 기반 자율주행 레이싱 플랫폼, 교내 1위."
     period: "Feb 2023 – Jul 2023"
-    img: /images/f1tenth.gif
+    img: /images/f1tenth.png
 ---
 
 ## about me
