@@ -9,13 +9,10 @@ redirect_from:
 
 projects:
   - title: "Invisible Watermarks: Attacks and Robustness"
-    desc: "Eco-friendly AMoD rebalancing via deep multi-agent RL."
+    desc: "Investigate improving watermark robustness via cascading techniques and improving attacks by proposing a custom remover network."
     period: "Aug 2024 – Dec 2024"
     img: /images/invisible_watermark.pdf
-  - title: "Autonomous Vehicle with RoboRacer"
-    desc: "F1TENTH 기반 자율주행 레이싱 플랫폼, 교내 1위."
-    period: "Feb 2023 – Jul 2023"
-    img: /images/f1tenth.png
+    tags: ["invisible watermarks", "watermark attack", "generative ai"]
 ---
 
 ## about me
