@@ -6,7 +6,7 @@ permalink: /publication/msthesis
 header:
     teaser: /images/msthesis.jpg
 date: 2023-12-01
-authors: Sungwon Woo 
+authors: <b>Sungwon Woo</b>
 venue: 
 buttons:
     - type: paper

@@ -6,7 +6,7 @@ permalink: /publication/kda
 header:
     teaser: /images/kda.png
 date: 2023-12-01
-authors: Sungwon Woo*, Jeongae Lee, Jung Lee, Hojune Kim, Jinkyeong Bae, Young Choi, Jongho Nang<sup>+</sup> 
+authors: <b>Sungwon Woo</b>, Jeongae Lee, Jung Lee, Hojune Kim, Jinkyeong Bae, Young Choi, Jongho Nang<sup>+</sup> 
 venue: 'Korean Institute of Information Scientists and Engineers 2024'
 buttons:
     - type: paper

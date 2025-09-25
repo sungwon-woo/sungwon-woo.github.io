@@ -31,7 +31,6 @@ Shiwon Kim\*, Dongjun Hwang\*, **Sungwon Woo***, Rita Singh+ **(*co-first author
 Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**  
 **<span style="color: #2196F3;">WACV'25</span> -->
 
-## Projects
 <ul class="pub-list">
 {%- assign pubs = site.publications | sort: "date" | reverse -%}
 {%- for p in pubs limit: 6 -%}
@@ -56,6 +55,9 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
   </li>
 {%- endfor -%}
 </ul>
+
+## Projects
+
 
 ## Education
 
