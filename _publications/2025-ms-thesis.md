@@ -8,7 +8,7 @@ header:
 date: 2025-08-01
 authors: <b>Sungwon Woo</b>
 venue: M.S. Thesis, Sogang University, 2025.
-tags: ["Continual Learning", "Few-shot Learning", "Neural Collapse"]
+tags: ["continual learning", "few-shot learning", "neural collapse"]
 buttons:
     - type: paper
       url: /files/Sungwon_s_Masters.pdf

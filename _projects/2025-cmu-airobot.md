@@ -4,7 +4,7 @@ collection: projects
 category: arxiv
 permalink: /projects/AIER
 header:
-    teaser: /images/aier.png
+    teaser: /images/aier_teaser.png
 date: 2025-02-01
 authors: ""
 venue: ""

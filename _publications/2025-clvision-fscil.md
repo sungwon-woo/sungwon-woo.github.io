@@ -9,7 +9,7 @@ excerpt: ''
 date: 2025-07-02
 authors: "Shiwon Kim*, Dongjun Hwang*, <b>Sungwon Woo*</b>, Rita Singh<sup>+</sup> <b>(co-first author)</b>"
 venue: 'Workshop on Continual Learning in Computer Vision (CLVision) at ICCV 2025'
-tags: ["Continual Learning", "Few-shot Learning", "Imbalanced Learning"]
+tags: ["continual learning", "few-shot learning", "imbalanced learning"]
 buttons:
     - type: paper
       url: https://arxiv.org/pdf/2503.10003
