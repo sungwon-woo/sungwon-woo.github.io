@@ -40,14 +40,25 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}">
       {% endif %}
     </div>
+
     <div class="pub-meta">
       <div class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
       {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
       {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
+
+      {# ▼ 태그 뱃지 출력 #}
+      {% if p.tags %}
+      <div class="tag-list">
+        {% for tag in p.tags %}
+          <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
       {% if p.buttons %}
       <div class="pub-links">
         {%- for b in p.buttons -%}
-          <a href="{{ b.url }}" target="_blank">{{ b.type | capitalize }}</a>
+          <a href="{{ b.url }}" target="_blank" rel="noopener">{{ b.type | capitalize }}</a>
         {%- endfor -%}
       </div>
       {% endif %}
