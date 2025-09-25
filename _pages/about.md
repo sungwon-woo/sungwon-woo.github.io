@@ -56,7 +56,7 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 {%- endfor -%}
 </ul>
 
-## Projects
+## selected projects
 <ul class="pub-list">
 {%- assign projs = site.projects | where: "selected", true | sort: "date" | reverse -%}
 {%- for p in projs -%}

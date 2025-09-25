@@ -6,8 +6,8 @@ permalink: /projects/idl_war
 header:
     teaser: /images/invisible_watermark.png
 date: 2024-12-01
-authors: Dongjun Hwang*, <b>Sungwon Woo*</b>, Tom Gao*, Raymond Luo*, Sunghwan Baek <b>(co-first author)</b>"
-venue:
+authors: "Dongjun Hwang*, <b>Sungwon Woo*</b>, Tom Gao*, Raymond Luo*, Sunghwan Baek <b>(co-first author)</b>"
+venue: "arXiv 2024"
 description: Improving water robustness via cascading image-space and latent-space techniques and improving attacks via custom remover network
 tags: ["invisible watermark", "adversarial attack", "generative ai"]
 buttons:
