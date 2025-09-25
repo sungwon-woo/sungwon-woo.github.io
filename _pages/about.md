@@ -39,25 +39,34 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 **<span style="color: #2196F3;">WACV'25</span>
 
 ## Projects
-<ul class="teaser-tiles">
-{% for x in page.projects %}
-  <li class="teaser-tile">
-    {% if x.img %}<img class="teaser" src="{{ x.img | relative_url }}" alt="{{ x.title }}">{% endif %}
-    <div class="teaser-meta">
-      <div class="teaser-title">{{ x.title }}</div>
-      {% if x.period %}<div class="teaser-venue">{{ x.period }}</div>{% endif %}
-      {% if x.desc %}<div class="teaser-summary">{{ x.desc }}</div>{% endif %}
+<ul class="pub-list">
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- for p in pubs limit: 6 -%}
+  <li class="pub-item">
+    <div class="pub-thumb">
+      {% if p.header.teaser %}
+        <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}">
+      {% endif %}
+    </div>
+    <div class="pub-meta">
+      <div class="pub-title">
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </div>
+      {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
+      {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
 
-      {% if x.tags %}
-      <div class="tag-list">
-        {% for tag in x.tags %}
-          <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
-        {% endfor %}
+      {% if p.buttons %}
+      <div class="pub-links">
+        {%- for b in p.buttons -%}
+          <a href="{{ b.url }}" target="_blank" rel="noopener">
+            {{ b.type | capitalize }}
+          </a>{% if forloop.last == false %} &nbsp;{% endif %}
+        {%- endfor -%}
       </div>
       {% endif %}
     </div>
   </li>
-{% endfor %}
+{%- endfor -%}
 </ul>
 
 
