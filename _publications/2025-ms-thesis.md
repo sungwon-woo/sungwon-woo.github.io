@@ -4,7 +4,7 @@ collection: publications
 category: thesis
 permalink: /publication/msthesis
 header:
-    teaser: /images/msthesis.png
+    teaser: /images/msthesis.jpg
 date: 2023-12-01
 authors: Sungwon Woo 
 venue: 
