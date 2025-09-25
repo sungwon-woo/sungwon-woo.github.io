@@ -46,7 +46,6 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
       {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
 
-      {# ▼ 태그 뱃지 출력 #}
       {% if p.tags %}
       <div class="tag-list">
         {% for tag in p.tags %}
