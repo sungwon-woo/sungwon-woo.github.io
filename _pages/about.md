@@ -47,6 +47,14 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       <div class="teaser-title">{{ x.title }}</div>
       {% if x.period %}<div class="teaser-venue">{{ x.period }}</div>{% endif %}
       {% if x.desc %}<div class="teaser-summary">{{ x.desc }}</div>{% endif %}
+
+      {% if x.tags %}
+      <div class="tag-list">
+        {% for tag in x.tags %}
+          <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
   </li>
 {% endfor %}
