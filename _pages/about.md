@@ -1,7 +1,6 @@
 ---
 title: ''
 permalink: /
-layout: home
 author_profile: true
 selected_papers: true
 redirect_from: 
