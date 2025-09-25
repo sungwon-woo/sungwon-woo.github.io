@@ -1,41 +1,36 @@
-<article class="archive__item">
-    <div class="pub-item">
-      <div class="pub-thumb">
-        {% if include.post.header and include.post.header.teaser %}
-          <img src="{{ include.post.header.teaser | relative_url }}" alt="{{ include.post.title | escape }}">
-        {% endif %}
-      </div>
-  
-      <div class="pub-meta">
-        <h2 class="archive__item-title">
-          <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
-        </h2>
-  
-        {% if include.post.period %}
-          <p class="pub-venue">{{ include.post.period }}</p>
-        {% endif %}
-  
-        {% if include.post.description %}
-          <p class="pub-authors">{{ include.post.description }}</p>
-        {% elsif include.post.excerpt %}
-          <p class="pub-authors">{{ include.post.excerpt | strip_html | truncate: 180 }}</p>
-        {% endif %}
-  
-        {% if include.post.tags %}
-          <p class="pub-tags">
-            {% for tag in include.post.tags %}
-              <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
-            {% endfor %}
-          </p>
-        {% endif %}
-  
-        {% if include.post.links %}
-          <p class="pub-links">
-            {% for L in include.post.links %}
-              <a href="{{ L.url }}" target="_blank" rel="noopener">{{ L.label }}</a>{% unless forloop.last %} · {% endunless %}
-            {% endfor %}
-          </p>
-        {% endif %}
-      </div>
+<div class="pub-card" style="display: flex; margin-bottom: 0.8rem;">
+    <!-- Left: Thumbnail -->
+    <div style="flex: 0 0 150px; margin-right: 1rem;">
+      <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}"
+        style="max-width: 100%; border-radius: 6px; border: 2px solid #333;">
     </div>
-  </article>
+  
+    <!-- Right: Content -->
+    <div>
+      <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 1.1em;">
+        <a href="{{ post.url | relative_url }}" style="text-decoration: none;">{{ post.title }}</a>
+      </h3>
+  
+      {% if post.authors %}
+      <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.9em;">{{ post.authors }}</p>
+      {% endif %}
+  
+      {% if post.venue %}
+      <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
+      {% endif %}
+  
+      {% if post.buttons %}
+      <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
+        {% for btn in post.buttons %}
+        <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+          {% if btn.type == "paper" %}📄 Paper{% endif %}
+          {% if btn.type == "video" %}🎥 Video{% endif %}
+          {% if btn.type == "code" %}💻 Code{% endif %}
+          {% if btn.type == "website" %}🌐 Website{% endif %}
+          {% if btn.type == "presentation" %}<i class="fas fa-presentation"></i> Website{% endif %}
+        </a>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </div>
