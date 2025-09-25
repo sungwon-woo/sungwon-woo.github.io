@@ -84,18 +84,31 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}">
       {% endif %}
     </div>
+
     <div class="pub-meta">
-      <div class="pub-title">
-        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-      </div>
+      <div class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
 
       {% if p.period %}<div class="pub-venue">{{ p.period }}</div>{% endif %}
-      {% if p.summary %}<div class="pub-authors">{{ p.summary }}</div>{% endif %}
+      {% if p.description %}
+        <div class="pub-authors">{{ p.description }}</div>
+      {% elsif p.summary %}
+        <div class="pub-authors">{{ p.summary }}</div>
+      {% elsif p.excerpt %}
+        <div class="pub-authors">{{ p.excerpt | strip_html | truncate: 180 }}</div>
+      {% endif %}
 
       {% if p.tags %}
       <div class="tag-list">
         {% for tag in p.tags %}
-          <a class="tag-pill" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">#{{ tag }}</a>
+          <a class="tag-pill"
+             href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
+             style="display:inline-flex; align-items:center; gap:4px;
+                    padding:3px 8px; border:1px solid rgba(0,0,0,.15);
+                    border-radius:999px; font-size:.8em; text-decoration:none;
+                    margin-right:6px;">
+            <i class="fas fa-tag"></i>
+            #{{ tag }}
+          </a>
         {% endfor %}
       </div>
       {% endif %}
