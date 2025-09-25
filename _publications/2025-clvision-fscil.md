@@ -2,7 +2,7 @@
 title: "Does Prior Data Matter? Exploring Joint Training in the Context of Few-Shot Class-Incremental Learning"
 collection: publications
 category: conferences
-permalink: /publication/clvision-fscil
+permalink: /publications/clvision-fscil
 header:
     teaser: /images/clvision-fscil.png
 excerpt: ''

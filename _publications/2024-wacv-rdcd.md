@@ -2,7 +2,7 @@
 title: "Relational Self-supervised Distillation with Compact Descriptors for Image Copy Detection"
 collection: publications
 category: conferences
-permalink: /publication/rdcd
+permalink: /publications/rdcd
 header:
     teaser: /images/rdcd.png
 excerpt: ''

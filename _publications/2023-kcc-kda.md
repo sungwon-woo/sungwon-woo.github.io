@@ -2,7 +2,7 @@
 title: "Semi-supervised learning Knowledge Distillation with feature Augmentation (KDA)"
 collection: publications
 category: conferences
-permalink: /publication/kda
+permalink: /publications/kda
 header:
     teaser: /images/kda.png
 date: 2023-12-01
