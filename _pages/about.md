@@ -8,8 +8,6 @@ redirect_from:
   - /about/
   - /about.html
 
----
-
 preprints:
   - title: "Prior-Constrained Explorative Guidance for Diffusion Motion Planning"
     authors: "—"
@@ -19,6 +17,9 @@ preprints:
     authors: "—"
     venue: "Submitted to AAMAS 2026 (Under double-blind review)"
     img: /images/drl_rideshare.gif
+
+
+---
 
 ## about me
 I am an alum of Sogang University, where I earned a Master's degree in Artificial Intelligence with a specialization in Computer Vision in 2025, and a Bachelor's degree in Computer Science and Engineering at 2023.
