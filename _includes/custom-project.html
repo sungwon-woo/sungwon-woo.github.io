@@ -21,9 +21,9 @@
   
       {% if post.description %}
         <p style="margin:.25rem 0 .2rem; font-size:.95em;">{{ post.description }}</p>
-      <!-- {% elsif post.excerpt %}
+      {% elsif post.excerpt %}
         <p style="margin:.25rem 0 .2rem; font-size:.95em;">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      {% endif %} -->
+      {% endif %}
   
       {% if post.tags %}
         <p style="margin:.2rem 0;">
