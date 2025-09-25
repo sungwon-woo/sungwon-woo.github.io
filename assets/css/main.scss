@@ -41,3 +41,62 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pub-item {
+  display: flex;              /* 가로 정렬 */
+  align-items: flex-start;    /* 썸네일과 텍스트 상단 맞춤 */
+  gap: 14px;
+  margin: 14px 0 20px;
+}
+
+.pub-thumb img {
+  width: 90px;    /* 원하는 정사각 크기 */
+  height: 90px;
+  object-fit: cover;   /* 비율 유지하면서 잘라냄 */
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,.12);
+  display: block;
+}
+
+.pub-meta {
+  flex: 1;   /* 남은 공간 채우기 */
+}
+
+.pub-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+.pub-authors {
+  font-size: .9rem;
+  opacity: .9;
+}
+.pub-venue {
+  font-size: .9rem;
+  opacity: .75;
+  margin-top: 4px;
+}
+.pub-links a {
+  font-size: .85rem;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* 모바일에서는 세로로 스택 */
+@media (max-width: 560px) {
+  .pub-item {
+    flex-direction: column;
+  }
+  .pub-thumb img {
+    width: 100%;
+    height: auto;
+  }
+}
