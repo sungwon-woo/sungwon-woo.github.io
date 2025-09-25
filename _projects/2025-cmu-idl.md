@@ -1,8 +1,8 @@
 ---
-title: "Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning"
+title: "Invisible Watermarks: Attacks and Robustness"
 collection: publications
-category: thesis
-permalink: /publication/msthesis
+category: arxiv
+permalink: /project/idl_war
 header:
     teaser: /images/msthesis.jpg
 date: 2024-12-01

@@ -5,7 +5,7 @@ category: thesis
 permalink: /publication/msthesis
 header:
     teaser: /images/msthesis.jpg
-date: 2025-07-01
+date: 2025-08-01
 authors: <b>Sungwon Woo</b>
 venue: M.S. Thesis, Sogang University, 2025.
 buttons:
