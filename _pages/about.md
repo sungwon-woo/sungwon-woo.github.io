@@ -46,19 +46,21 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
       {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
 
-    {% if post.tags %}
-      <p style="margin:.2rem 0;">
-        {% for tag in post.tags %}
-          <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
+      {% if p.tags %}
+      <div class="tag-list">
+        {% for tag in p.tags %}
+          <a class="tag-pill"
+            href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
             style="display:inline-flex; align-items:center; gap:4px;
                     padding:3px 8px; border:1px solid rgba(0,0,0,.15);
-                    border-radius:999px; font-size:.8em; text-decoration:none; margin-right:6px;">
-            <i class="fas fa-tag"></i>  <!-- 아이콘 -->
+                    border-radius:999px; font-size:.8em; text-decoration:none;
+                    margin-right:6px;">
+            <i class="fas fa-tag"></i>
             #{{ tag }}
           </a>
         {% endfor %}
-      </p>
-    {% endif %}
+      </div>
+      {% endif %}
 
       {% if p.buttons %}
       <div class="pub-links">
