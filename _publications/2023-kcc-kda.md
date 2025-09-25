@@ -12,6 +12,4 @@ tags: ["Semi-supervised Learning", "Knowledge Distillation"]
 buttons:
     - type: paper
       url: https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12042065&width=2048
-    - type: video
-      url:
 ---

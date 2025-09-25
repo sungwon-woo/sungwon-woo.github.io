@@ -12,6 +12,4 @@ tags: ["Continual Learning", "Few-shot Learning", "Neural Collapse"]
 buttons:
     - type: paper
       url: /files/Sungwon_s_Masters.pdf
-    - type: video
-      url:
 ---
