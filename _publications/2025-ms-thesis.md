@@ -2,6 +2,8 @@
 title: "Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning"
 collection: publications
 category: thesis
+permalink: /publications/msthesis
+nolink: true
 header:
     teaser: /images/msthesis.jpg
 date: 2025-08-01

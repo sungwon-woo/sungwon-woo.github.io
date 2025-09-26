@@ -62,6 +62,14 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       </div>
       {% endif %}
 
+      <div class="pub-title">
+        {% if p.nolink %}
+          {{ p.title }}
+        {% else %}
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
+      </div>
+
       {% if p.buttons %}
       <div class="pub-links">
         {%- for b in p.buttons -%}
