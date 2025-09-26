@@ -3,6 +3,7 @@ title: "Does Prior Data Matter? Exploring Joint Training in the Context of Few-S
 collection: publications
 category: conferences
 permalink: /publications/clvision-fscil
+nolink: true
 header:
     teaser: /images/clvision-fscil.png
 excerpt: ''

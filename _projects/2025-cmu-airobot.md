@@ -3,6 +3,7 @@ title: "AI on the Edge with Robotics"
 collection: projects
 category: arxiv
 permalink: /projects/AIER
+nolink: true
 header:
     teaser: /images/aier_teaser.png
 date: 2025-02-01
