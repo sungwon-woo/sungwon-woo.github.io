@@ -1,5 +1,5 @@
 ---
-title: "AI on the Edge with Robotics"
+title: "Generating Yua Han’s SNS Images and Reels"
 collection: projects
 category: arxiv
 permalink: /projects/yuahan
