@@ -6,9 +6,9 @@ permalink: /projects/kda
 nolink: true
 header:
     teaser: /images/kda.png
-date: 2023-12-01 
+date: 2023-12-01
 venue: "Big Data Computing Course Sep.2024 - Dec.2024"
-description: Development of Safety Functions Based on Driving Environment and Driver State Recognition
+description: Proposed a novel approach that integrates knowledge distillation with a top-k strategy to enhance classification of semi-supervised learning
 tags: ["semi-supervised learning", "knowledge distillation"]
 buttons:
     - type: paper
