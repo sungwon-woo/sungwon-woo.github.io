@@ -92,7 +92,13 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
 
     <div class="pub-meta">
-      <div class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
+      <div class="pub-title">
+        {% if p.nolink %}
+          {{ p.title }}
+        {% else %}
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
+      </div>
 
       {% if p.period %}<div class="pub-venue">{{ p.period }}</div>{% endif %}
       {% if p.description %}

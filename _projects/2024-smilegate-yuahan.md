@@ -3,6 +3,7 @@ title: "Generating Yua Han’s SNS Images and Reels"
 collection: projects
 category: arxiv
 permalink: /projects/yuahan
+nolink: true
 header:
     teaser: /images/yuahan.png
 date: 2024-07-01

@@ -3,6 +3,7 @@ title: "Relational Self-supervised Distillation with Compact Descriptors for Ima
 collection: publications
 category: conferences
 permalink: /publications/rdcd
+nolink: true
 header:
     teaser: /images/rdcd.png
 excerpt: ''

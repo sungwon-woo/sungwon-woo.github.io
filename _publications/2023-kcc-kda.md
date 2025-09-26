@@ -3,6 +3,7 @@ title: "Semi-supervised learning Knowledge Distillation with feature Augmentatio
 collection: publications
 category: conferences
 permalink: /publications/kda
+nolink: true
 header:
     teaser: /images/kda.png
 date: 2023-12-01
