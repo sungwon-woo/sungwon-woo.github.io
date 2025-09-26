@@ -6,9 +6,7 @@ permalink: /projects/capstone
 nolink: true
 header:
     teaser: /images/capstone2.png
-date: 2025-02-01
-authors: "<b>SungWon Woo</b>, JunSeok Lee, MunHae Kang"
-venue: "Korean Institute of Information Scientists and Engineers 2022"
+date: 2022-12-01
 description: Development of Safety Functions Based on Driving Environment and Driver State Recognition
 tags: ["object detection", "object tracking"]
 selected: "true"
