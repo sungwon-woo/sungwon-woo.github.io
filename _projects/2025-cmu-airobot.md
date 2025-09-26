@@ -14,5 +14,5 @@ tags: ["robotics", "object detection", "object tracking"]
 selected: "true"
 buttons:
     - type: video
-      url: https://drive.google.com/file/d/1PAAkH9V7Z_dd-6QWFmGp0ypblDyq2vsL/view
+      url: /files/studio_project.MOV
 ---
