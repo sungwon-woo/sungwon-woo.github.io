@@ -63,12 +63,18 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       </div>
       {% endif %}
 
-      {% if p.buttons %}
-      <div class="pub-links">
-        {%- for b in p.buttons -%}
-          <a href="{{ b.url }}" target="_blank" rel="noopener">{{ b.type | capitalize }}</a>
-        {%- endfor -%}
-      </div>
+      {% if post.buttons %}
+      <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
+        {% for btn in post.buttons %}
+        <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+          {% if btn.type == "paper" %}📄 Paper{% endif %}
+          {% if btn.type == "video" %}🎥 Video{% endif %}
+          {% if btn.type == "code" %}💻 Code{% endif %}
+          {% if btn.type == "website" %}🌐 Website{% endif %}
+          {% if btn.type == "presentation" %}🖥️ Slides{% endif %}
+        </a>
+        {% endfor %}
+      </p>
       {% endif %}
     </div>
   </li>
