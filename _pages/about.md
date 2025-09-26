@@ -42,7 +42,13 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
 
     <div class="pub-meta">
-      <div class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
+      <div class="pub-title">
+        {% if p.nolink %}
+          {{ p.title }}
+        {% else %}
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
+      </div>
       {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
       {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
 
@@ -61,14 +67,6 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         {% endfor %}
       </div>
       {% endif %}
-
-      <div class="pub-title">
-        {% if p.nolink %}
-          {{ p.title }}
-        {% else %}
-          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-        {% endif %}
-      </div>
 
       {% if p.buttons %}
       <div class="pub-links">
