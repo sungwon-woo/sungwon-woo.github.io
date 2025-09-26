@@ -7,7 +7,7 @@ nolink: true
 header:
     teaser: /images/kda.png
 date: 2023-12-01
-venue: "Big Data Computing Course Sep.2024 - Dec.2024"
+venue: "Big Data Computing Course Sep.2023 - Dec.2023"
 description: Proposed a novel approach that integrates knowledge distillation with a top-k strategy to enhance classification of semi-supervised learning
 tags: ["semi-supervised learning", "knowledge distillation"]
 selected: "true"
