@@ -6,9 +6,9 @@ permalink: /projects/kda
 nolink: true
 header:
     teaser: /images/kda.png
-date: 2023-12-01
-authors: <b>Sungwon Woo</b>, Jeongae Lee, Jung Lee, Hojune Kim, Jinkyeong Bae, Young Choi, Jongho Nang<sup>+</sup> 
-venue: 'Korean Institute of Information Scientists and Engineers 2024'
+date: 2023-12-01 
+venue: "Big Data Computing Course Sep.2024 - Dec.2024"
+description: Development of Safety Functions Based on Driving Environment and Driver State Recognition
 tags: ["semi-supervised learning", "knowledge distillation"]
 buttons:
     - type: paper
