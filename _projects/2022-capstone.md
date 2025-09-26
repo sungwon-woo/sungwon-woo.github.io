@@ -7,6 +7,7 @@ nolink: true
 header:
     teaser: /images/capstone2.png
 date: 2022-12-01
+venue: "Capstone Design2 course Sep.2024 - Dec.2024"
 description: Development of Safety Functions Based on Driving Environment and Driver State Recognition
 tags: ["object detection", "object tracking"]
 selected: "true"
