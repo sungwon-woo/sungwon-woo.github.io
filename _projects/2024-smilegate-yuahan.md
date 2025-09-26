@@ -14,5 +14,5 @@ tags: ["generative ai", "face reenactment"]
 selected: "true"
 buttons:
     - type: video
-      url: https://drive.google.com/file/d/1A7STIckvHNl8QG72Qe8ujTB45xeQ694k/view
+      url: /files/yua_han.mp4
 ---
