@@ -137,6 +137,22 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         {% endfor %}
       </div>
       {% endif %}
+
+      {% if p.buttons %}
+      <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
+        {% for btn in p.buttons %}
+        <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+          {% if btn.type == "paper" %}📄 Paper{% endif %}
+          {% if btn.type == "video" %}🎥 Video{% endif %}
+          {% if btn.type == "code" %}💻 Code{% endif %}
+          {% if btn.type == "website" %}🌐 Website{% endif %}
+          {% if btn.type == "presentation" %}🖥️ Slides{% endif %}
+        </a>
+        {% endfor %}
+      </p>
+      {% endif %}
+
+
     </div>
   </li>
 {%- endfor -%}
