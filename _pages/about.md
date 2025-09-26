@@ -42,7 +42,7 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
 
     <div class="pub-meta">
-      <div class="pub-title" style="font-weight: normal; color:#00BFFF;">
+      <div class="pub-title" style="font-weight: normal; color:#333333;">
         {{ p.title }}
       </div>
 
@@ -87,12 +87,9 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
 
     <div class="pub-meta">
-      <div class="pub-title">
-        {% if p.nolink %}
-          {{ p.title }}
-        {% else %}
-          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-        {% endif %}
+      <!-- 제목: 링크 제거 + 색상 적용 -->
+      <div class="pub-title" style="font-weight: normal; color:#333333;">
+        {{ p.title }}
       </div>
 
       {% if p.period %}<div class="pub-venue">{{ p.period }}</div>{% endif %}
@@ -107,15 +104,13 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       {% if p.tags %}
       <div class="tag-list">
         {% for tag in p.tags %}
-          <a class="tag-pill"
-             href="{{ '/tags/#' | append: tag | slugify | relative_url }}"
+          <span class="tag-pill"
              style="display:inline-flex; align-items:center; gap:4px;
                     padding:3px 8px; border:1px solid rgba(0,0,0,.15);
-                    border-radius:999px; font-size:.8em; text-decoration:none;
-                    margin-right:6px;">
+                    border-radius:999px; font-size:.8em; margin-right:6px; color:#00BFFF;">
             <i class="fas fa-tag"></i>
             #{{ tag }}
-          </a>
+          </span>
         {% endfor %}
       </div>
       {% endif %}
