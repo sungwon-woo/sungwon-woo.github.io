@@ -63,9 +63,17 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
       </div>
       {% endif %}
 
-      {% if post.buttons %}
+      {% if p.links %}
+      <div class="pub-links">
+        {% for L in p.links %}
+          <a href="{{ L.url }}" target="_blank" rel="noopener">{{ L.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if p.buttons %}
       <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
-        {% for btn in post.buttons %}
+        {% for btn in p.buttons %}
         <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
           {% if btn.type == "paper" %}📄 Paper{% endif %}
           {% if btn.type == "video" %}🎥 Video{% endif %}
@@ -76,6 +84,7 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         {% endfor %}
       </p>
       {% endif %}
+      
     </div>
   </li>
 {%- endfor -%}
