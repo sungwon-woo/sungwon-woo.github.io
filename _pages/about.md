@@ -135,6 +135,7 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 - **Visiting Student at Carnegie Mellon Univeristy**, Aug.2024 - Feb.2025
   - Sponsored by Institute of Information & Communications Technology Planning & Evaluation (IITP)
   - Achieved <b>2nd place (2/34)</b> in the Best Student Award
+- **Student Researcher at Smilegate**, June.2024 - Jul.2024
 
 ## Awards & Scholarship
   - Smilegate AI Major (DHE) Scholarship, Smilegate, Mar.2023 - Aug.2025
