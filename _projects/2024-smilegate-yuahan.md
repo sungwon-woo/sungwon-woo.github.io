@@ -12,5 +12,7 @@ venue: "Jul.2024 - Jul.2024"
 description: Created synthetic Yua Han's Instagram images and reels video with Dreambooth and Face Reenactment
 tags: ["generative ai", "face reenactment"]
 selected: "true"
-
+buttons:
+    - type: video
+      url: https://drive.google.com/file/d/1A7STIckvHNl8QG72Qe8ujTB45xeQ694k/view
 ---
