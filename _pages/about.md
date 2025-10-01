@@ -172,6 +172,8 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 - **Student Researcher at Smilegate**, June.2024 - Jul.2024
 
 ## Awards & Scholarship
+  - 2nd place (2/34) in the Academic Excellence Award, Carnegie Mellon University Aug.2024 - Feb.2025
+  - Carnegie Mellon University AI Intensive Training Program Fellowship, IITP Aug.2024 - Feb.2025
   - Smilegate AI Major (DHE) Scholarship, Smilegate, Mar.2023 - Aug.2025
   - 5th place on Video Similarity Challenge, CVPRW2023, VCDW by META Jan.2023 - Mar.2023
   - 4th place on Food Classification Challenge, KT GenieLabs Aug.2022 - Sep.2022
