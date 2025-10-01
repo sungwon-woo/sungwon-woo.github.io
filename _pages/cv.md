@@ -6,10 +6,10 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-Curriculum vitae can be downloaded [HERE](https://drive.google.com/file/d/1vA2BNZxMgJ7aVPw_HE4tprMWLa5eWo5u/view?usp=drive_link)  
+Curriculum vitae can be downloaded [HERE](/files/Sungwon_s_CV.pdf)  
 
 
-{% include base_path %}
+<!-- {% include base_path %}
 
 Education
 ======
@@ -63,4 +63,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
