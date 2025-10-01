@@ -15,7 +15,7 @@ buttons:
     - type: paper
       url: https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11224546&width=2048
     - type: video
-      url: /files/capstone2.mp4
+      url: /files/capstone2_danger.mp4
     - type: video
       url: /files/capstone22.mp4
 ---
