@@ -15,5 +15,5 @@ buttons:
     - type: paper
       url: https://arxiv.org/pdf/2503.10003
     - type: video
-      url:
+      url: https://www.youtube.com/watch?v=es2J-dfRYcU&list=LL&index=1
 ---
