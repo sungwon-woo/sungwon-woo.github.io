@@ -14,7 +14,11 @@ I am an alum of Sogang University, where I earned a Master's degree in Artificia
 My research lies at the intersection of <b>computer vision</b> and <b>deep learning</b>– with a special interest on building intelligent visual systems that are beyond supervised learning and data memory efficient; which includes but are not limited to: <b>continual learning, few‑shot learning, self(semi)‑supervised learning, image retrieval, and lightweighting</b>.
 <!-- My previous research focuses on image retrieval and visual copy detection, as well as in the development of lightweight neural networks. Recently, I am pursuing strong interest in visual continual learning with a data-constrained environment.  -->
 
+<i class="fas fa-graduation-cap" style="color:#00BFFF; margin-right:6px;"></i>
+I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re open to collaboration or discussion in this area, feel free to reach out!
+
 ## news
+- **Oct 2025**: I will attend ICCV 2025 at Honolulu, Hawaii.
 - **Aug 2025**: Graduated from Sogang University with a Master's degree in Artificial Intelligence.
 - **Jul 2025**: One paper is accepted as a poster at ICCV 2025 workshop on Continual Learning in Computer Vision.
 - **Nov 2024**: One paper is accepted as a poster in WACV 2025.
