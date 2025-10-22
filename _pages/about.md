@@ -11,7 +11,9 @@ redirect_from:
 ## about me
 I am an alum of Sogang University, where I earned a Master's degree in Artificial Intelligence with a specialization in Computer Vision in 2025, and a Bachelor's degree in Computer Science and Engineering at 2023.
 
-My research lies at the intersection of <b>computer vision</b> and <b>deep learning</b>– with a special interest on building intelligent visual systems that are beyond supervised learning and data memory efficient; which includes but are not limited to: <b>continual learning, few‑shot learning, self(semi)‑supervised learning, image retrieval, and lightweighting</b>.
+My research lies at the intersection of <b>computer vision</b> and <b>deep learning</b>– with a special interest on building intelligent visual systems that are beyond supervised learning and data memory efficient. My primary research interests include <b>continual learning, few‑shot learning, self(semi)‑supervised learning</b>, while I also have experience in image retrieval, and lightweighting.
+
+<!-- My primary research interests include \textbf{continual learning, few-shot learning, self(semi)-supervised learning}, while I also have experience in image retrieval and lightweight model design. -->
 <!-- My previous research focuses on image retrieval and visual copy detection, as well as in the development of lightweight neural networks. Recently, I am pursuing strong interest in visual continual learning with a data-constrained environment.  -->
 
 <i class="fas fa-graduation-cap" style="color:#00BFFF; margin-right:6px;"></i>
