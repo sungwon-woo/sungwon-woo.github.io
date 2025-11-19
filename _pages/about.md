@@ -41,8 +41,11 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 **<span style="color: #2196F3;">WACV'25</span> -->
 
 <ul class="pub-list">
-{%- assign pubs = site.publications | sort: "date" | reverse -%}
-{%- for p in pubs limit: 6 -%}
+{%- assign preprints = site.publications 
+      | where: "preprint", true 
+      | sort: "date" 
+      | reverse -%}
+{%- for p in preprints limit: 6 -%}
   <li class="pub-item">
     <div class="pub-thumb">
       {% if p.header.teaser %}
@@ -159,17 +162,12 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
   </li>
 {%- endfor -%}
-</ul>
-
 
 
 ## selected projects
 <ul class="pub-list">
-{%- assign pubs = site.publications 
-      | where_exp: "p", "p.preprint != true" 
-      | sort: "date" 
-      | reverse -%}
-{%- for p in pubs limit: 6 -%}
+{%- assign projs = site.projects | where: "selected", true | sort: "date" | reverse -%}
+{%- for p in projs -%}
   <li class="pub-item">
     <div class="pub-thumb">
       {% if p.header.teaser %}
