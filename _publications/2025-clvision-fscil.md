@@ -16,4 +16,5 @@ buttons:
       url: https://arxiv.org/pdf/2503.10003
     - type: video
       url: https://www.youtube.com/watch?v=es2J-dfRYcU&list=LL&index=1
+preprint: false   # <- 이 줄 추가
 ---
