@@ -165,8 +165,11 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 
 ## selected projects
 <ul class="pub-list">
-{%- assign projs = site.projects | where: "selected", true | sort: "date" | reverse -%}
-{%- for p in projs -%}
+{%- assign pubs = site.publications 
+      | where_exp: "p", "p.preprint != true" 
+      | sort: "date" 
+      | reverse -%}
+{%- for p in pubs limit: 6 -%}
   <li class="pub-item">
     <div class="pub-thumb">
       {% if p.header.teaser %}
