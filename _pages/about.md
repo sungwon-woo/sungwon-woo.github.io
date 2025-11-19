@@ -26,6 +26,69 @@ I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re o
 - **Nov 2024**: One paper is accepted as a poster in WACV 2025.
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
+
+## preprints
+<ul class="pub-list">
+{%- assign preprints = site.publications 
+      | where: "preprint", true 
+      | sort: "date" 
+      | reverse -%}
+{%- for p in preprints limit: 6 -%}
+  <li class="pub-item">
+    <div class="pub-thumb">
+      {% if p.header.teaser %}
+        <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title | escape }}">
+      {% endif %}
+    </div>
+
+    <div class="pub-meta">
+      <div class="pub-title" style="font-weight: normal; color:#333333;">
+        {{ p.title }}
+      </div>
+
+      {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
+      {% if p.venue %}<div class="pub-venue"><em>{{ p.venue }}</em></div>{% endif %}
+
+      {% if p.tags %}
+      <div class="tag-list">
+        {% for tag in p.tags %}
+          <span class="tag-pill"
+            style="display:inline-flex; align-items:center; gap:4px;
+                   padding:3px 8px; border:1px solid rgba(0,0,0,.15);
+                   border-radius:999px; font-size:.8em; margin-right:6px; color:#00BFFF;">
+            <i class="fas fa-tag"></i>
+            #{{ tag }}
+          </span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if p.links %}
+      <div class="pub-links">
+        {% for L in p.links %}
+          <a href="{{ L.url }}" target="_blank" rel="noopener">{{ L.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if p.buttons %}
+      <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
+        {% for btn in p.buttons %}
+        <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+          {% if btn.type == "paper" %}📄 Paper{% endif %}
+          {% if btn.type == "video" %}🎥 Video{% endif %}
+          {% if btn.type == "code" %}💻 Code{% endif %}
+          {% if btn.type == "website" %}🌐 Website{% endif %}
+          {% if btn.type == "presentation" %}🖥️ Slides{% endif %}
+        </a>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </li>
+{%- endfor -%}
+</ul>
+
 ## selected publications
 <!-- - **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](https://drive.google.com/file/d/1vA2BNZxMgJ7aVPw_HE4tprMWLa5eWo5u/view?usp=drive_link)  
 **Sungwon Woo**  
