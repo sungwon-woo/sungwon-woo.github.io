@@ -26,7 +26,6 @@ I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re o
 - **Nov 2024**: One paper is accepted as a poster in WACV 2025.
 - **Aug 2024**: I have been granted as a visiting scholar at CMU hosted by IITP.
 
-
 ## selected publications
 <!-- - **Neural Collapse-Driven, Uncertainty-Aware Framework for Few-Shot Class-Incremental Learning** [[paper]](https://drive.google.com/file/d/1vA2BNZxMgJ7aVPw_HE4tprMWLa5eWo5u/view?usp=drive_link)  
 **Sungwon Woo**  
@@ -41,11 +40,11 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
 **<span style="color: #2196F3;">WACV'25</span> -->
 
 <ul class="pub-list">
-{%- assign preprints = site.publications 
-      | where: "preprint", true 
+{%- assign pubs = site.publications 
+      | where_exp: "p", "p.preprint != true" 
       | sort: "date" 
       | reverse -%}
-{%- for p in preprints limit: 6 -%}
+{%- for p in pubs limit: 6 -%}
   <li class="pub-item">
     <div class="pub-thumb">
       {% if p.header.teaser %}
@@ -162,6 +161,7 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
     </div>
   </li>
 {%- endfor -%}
+</ul>
 
 
 ## selected projects
@@ -225,7 +225,6 @@ Juntae Kim\*, **Sungwon Woo***, Jongho Nang+ **(*co-first author)**
         {% endfor %}
       </p>
       {% endif %}
-
 
     </div>
   </li>
