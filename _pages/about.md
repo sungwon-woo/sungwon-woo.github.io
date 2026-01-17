@@ -16,8 +16,8 @@ My research lies at the intersection of <b>computer vision</b> and <b>deep learn
 <!-- My primary research interests include \textbf{continual learning, few-shot learning, self(semi)-supervised learning}, while I also have experience in image retrieval and lightweight model design. -->
 <!-- My previous research focuses on image retrieval and visual copy detection, as well as in the development of lightweight neural networks. Recently, I am pursuing strong interest in visual continual learning with a data-constrained environment.  -->
 
-<i class="fas fa-graduation-cap" style="color:#00BFFF; margin-right:6px;"></i>
-I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re open to collaboration or discussion in this area, feel free to reach out!
+<!-- <i class="fas fa-graduation-cap" style="color:#00BFFF; margin-right:6px;"></i>
+I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re open to collaboration or discussion in this area, feel free to reach out! -->
 
 ## news
 - **Oct 2025**: I will attend ICCV 2025 at Honolulu, Hawaii.
