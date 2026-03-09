@@ -4,9 +4,10 @@ collection: publications
 category: conferences
 header:
     teaser: /images/cvpr-ula.png
+date: 2026-02-26
+authors: "<b>Sungwon Woo</b>, Dongjun Hwang, Shiwon Kim, Junsuk Choe, Jongho Nang"
 venue: |
-  Under Double-blind Review.
-  Submitted to Top-tier AI Conference.
+  'IEEE/CVF Conference on Computer Vision and Pattern Recognition Findings Track 2026'
 tags: ["continual learning", "few-shot learning", "uncertainty sampling"]
-preprint: true   # <- 이 줄 추가
+preprint: false  # <- 이 줄 추가
 ---
