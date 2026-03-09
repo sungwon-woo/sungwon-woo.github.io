@@ -1,5 +1,5 @@
 ---
-title: "SeoUL: Semantic-Centric Alignment for \\Universal Cross-Domain Retrieval with Multimodal Large Language Models"
+title: "SeoUL: Semantic-Centric Alignment for Universal Cross-Domain Retrieval with Multimodal Large Language Models"
 collection: publications
 category: conferences
 header:
