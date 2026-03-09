@@ -20,7 +20,7 @@ My research lies at the intersection of <b>computer vision</b> and <b>deep learn
 I’m actively preparing for Ph.D. admissions for Fall 2026 entry. If you’re open to collaboration or discussion in this area, feel free to reach out! -->
 
 ## news
-- **Oct 2025**: I will attend ICCV 2025 at Honolulu, Hawaii.
+- **Feb 2026**: One paper is accepted as a poster in CVPR 2026 Findings Track.
 - **Aug 2025**: Graduated from Sogang University with a Master's degree in Artificial Intelligence.
 - **Jul 2025**: One paper is accepted as a poster at ICCV 2025 workshop on Continual Learning in Computer Vision.
 - **Nov 2024**: One paper is accepted as a poster in WACV 2025.
