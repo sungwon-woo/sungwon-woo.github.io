@@ -10,7 +10,7 @@ date: 2023-12-01
 venue: "Big Data Computing Course Sep.2023 - Dec.2023"
 description: Proposed a novel approach that integrates knowledge distillation with a top-k strategy to enhance classification of semi-supervised learning
 tags: ["semi-supervised learning", "knowledge distillation"]
-selected: "true"
+selected: "false"
 buttons:
     - type: paper
       url: https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12042065&width=2048
