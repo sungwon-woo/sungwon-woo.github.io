@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 ## about me
-I am a Research Engineer at <a href="https://motifdrive.ai" target="_blank" rel="noopener noreferrer">MotifDrive</a>, working on end-to-end autonomous driving systems with a focus on improving path planning performance across simulated and real-world driving environments.
+I am a Research Engineer at <a href="https://motifdrive.com" target="_blank" rel="noopener noreferrer">MotifDrive</a>, working on end-to-end autonomous driving systems with a focus on improving path planning performance across simulated and real-world driving environments.
 
-I hold an M.S. in Artificial Intelligence from Sogang University{https://www.sogang.ac.kr/en/home}, where I specialized in Computer Vision, as well as a B.S. in Computer Science. My research background includes learning under limited data scenarios, such as self-supervised learning, few-shot learning, and continual learning, along with efficient visual retrieval systems.
+I hold an M.S. in Artificial Intelligence from <a href="https://www.sogang.ac.kr/en/home" target="_blank" rel="noopener noreferrer">Sogang University</a>, where I specialized in Computer Vision, as well as a B.S. in Computer Science. My research background includes learning under limited data scenarios, such as self-supervised learning, few-shot learning, and continual learning, along with efficient visual retrieval systems.
 
 <!-- I am an alum of Sogang University, where I earned a Master's degree in Artificial Intelligence with a specialization in Computer Vision in 2025, and a Bachelor's degree in Computer Science and Engineering at 2023.
 
