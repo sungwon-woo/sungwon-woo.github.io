@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## about me
-I am a Research Engineer at MotifDrive(https://motifdrive.com/), working on end-to-end autonomous driving systems with a focus on improving path planning performance across simulated and real-world driving environments.
+I am a Research Engineer at <a href="https://motifdrive.ai" target="_blank" rel="noopener noreferrer">MotifDrive</a>, working on end-to-end autonomous driving systems with a focus on improving path planning performance across simulated and real-world driving environments.
 
 I hold an M.S. in Artificial Intelligence from Sogang University{https://www.sogang.ac.kr/en/home}, where I specialized in Computer Vision, as well as a B.S. in Computer Science. My research background includes learning under limited data scenarios, such as self-supervised learning, few-shot learning, and continual learning, along with efficient visual retrieval systems.
 
